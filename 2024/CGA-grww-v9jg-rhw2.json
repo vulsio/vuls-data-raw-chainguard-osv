@@ -1,0 +1,39 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-grww-v9jg-rhw2",
+	"modified": "2024-10-22T05:28:58.391980Z",
+	"published": "2024-06-06T12:27:32.622487Z",
+	"aliases": [
+		"BIT-golang-2023-45288",
+		"CGA-8q47-wf6v-wqg5",
+		"CGA-c6f9-jh7g-69mj",
+		"CVE-2023-45288",
+		"GHSA-4v7x-pqxf-cx7m",
+		"GO-2024-2687"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-fips-1.14",
+				"purl": "pkg:apk/chainguard/vault-fips-1.14"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.10-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-grww-v9jg-rhw2.json"
+			}
+		}
+	]
+}

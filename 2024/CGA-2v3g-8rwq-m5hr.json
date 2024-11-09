@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-2v3g-8rwq-m5hr",
+	"modified": "2024-03-13T07:06:18Z",
+	"published": "2024-06-06T12:17:15.087451Z",
+	"related": [
+		"CGA-2v3g-8rwq-m5hr",
+		"CVE-2023-45289",
+		"GHSA-32ch-6x54-q4h9"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kube-logging-logging-operator-3.17",
+				"purl": "pkg:apk/chainguard/kube-logging-logging-operator-3.17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.17.11-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2v3g-8rwq-m5hr.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kube-logging-logging-operator-3.17-compat",
+				"purl": "pkg:apk/chainguard/kube-logging-logging-operator-3.17-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.17.11-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-2v3g-8rwq-m5hr.json"
+			}
+		}
+	]
+}

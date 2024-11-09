@@ -1,0 +1,36 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-f9x4-gc5p-g8jr",
+	"modified": "2024-06-24T11:31:18Z",
+	"published": "2024-06-24T14:34:05.685361Z",
+	"related": [
+		"CGA-f9x4-gc5p-g8jr",
+		"CVE-2024-1888",
+		"GHSA-pfw6-5rx3-xh3c"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mattermost-9",
+				"purl": "pkg:apk/chainguard/mattermost-9"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f9x4-gc5p-g8jr.json"
+			}
+		}
+	]
+}

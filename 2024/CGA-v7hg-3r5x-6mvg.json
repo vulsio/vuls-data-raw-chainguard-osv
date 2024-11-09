@@ -1,0 +1,266 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-v7hg-3r5x-6mvg",
+	"modified": "2024-04-23T21:39:44Z",
+	"published": "2024-06-06T12:26:25.610502Z",
+	"related": [
+		"CGA-v7hg-3r5x-6mvg",
+		"CVE-2024-21085",
+		"GHSA-273j-fjrx-gf2f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-bcfips-additional-sun-providers",
+				"purl": "pkg:apk/chainguard/openjdk-11-bcfips-additional-sun-providers"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-dbg-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-dbg-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-default-jdk-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-default-jdk-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-default-jvm-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-default-jvm-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-demos-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-demos-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-doc-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-doc-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-jmods-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-jmods-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-jre-base-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-jre-base-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-jre-bcfips",
+				"purl": "pkg:apk/chainguard/openjdk-11-jre-bcfips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "openjdk-11-jre-bcfips-additional-sun-providers",
+				"purl": "pkg:apk/chainguard/openjdk-11-jre-bcfips-additional-sun-providers"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "11.0.23-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v7hg-3r5x-6mvg.json"
+			}
+		}
+	]
+}

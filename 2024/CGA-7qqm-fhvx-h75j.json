@@ -1,0 +1,36 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7qqm-fhvx-h75j",
+	"modified": "2024-10-22T05:28:48.134632Z",
+	"published": "2024-06-06T12:23:29.231207Z",
+	"aliases": [
+		"CGA-8q3r-4wx8-6f9q",
+		"GHSA-7ww5-4wqc-m92c",
+		"GO-2023-2412"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "k8sgpt",
+				"purl": "pkg:apk/chainguard/k8sgpt"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.24-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7qqm-fhvx-h75j.json"
+			}
+		}
+	]
+}

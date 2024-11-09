@@ -1,0 +1,39 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8q47-wf6v-wqg5",
+	"modified": "2024-10-22T05:28:58.391980Z",
+	"published": "2024-06-06T11:55:05.237050Z",
+	"aliases": [
+		"BIT-golang-2023-45288",
+		"CGA-c6f9-jh7g-69mj",
+		"CGA-grww-v9jg-rhw2",
+		"CVE-2023-45288",
+		"GHSA-4v7x-pqxf-cx7m",
+		"GO-2024-2687"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "newrelic-fluent-bit-output",
+				"purl": "pkg:apk/chainguard/newrelic-fluent-bit-output"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.19.2-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8q47-wf6v-wqg5.json"
+			}
+		}
+	]
+}

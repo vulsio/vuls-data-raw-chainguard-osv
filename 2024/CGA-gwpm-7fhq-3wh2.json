@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gwpm-7fhq-3wh2",
+	"modified": "2024-06-24T09:30:30Z",
+	"published": "2024-06-24T10:04:06.437569Z",
+	"related": [
+		"CGA-gwpm-7fhq-3wh2",
+		"CVE-2024-37891",
+		"GHSA-34jh-p97f-mpxf"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "request-1276",
+				"purl": "pkg:apk/chainguard/request-1276"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.21.0-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gwpm-7fhq-3wh2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "request-1276-compat",
+				"purl": "pkg:apk/chainguard/request-1276-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.21.0-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gwpm-7fhq-3wh2.json"
+			}
+		}
+	]
+}

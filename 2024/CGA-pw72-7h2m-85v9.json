@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-pw72-7h2m-85v9",
+	"modified": "2024-11-07T11:18:28Z",
+	"published": "2024-11-07T12:10:10.276252Z",
+	"related": [
+		"CGA-pw72-7h2m-85v9",
+		"CVE-2024-34158",
+		"GHSA-j7vj-rw65-4v26"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch-fips",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pw72-7h2m-85v9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "aws-flb-cloudwatch-compat-fips",
+				"purl": "pkg:apk/chainguard/aws-flb-cloudwatch-compat-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.4-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-pw72-7h2m-85v9.json"
+			}
+		}
+	]
+}

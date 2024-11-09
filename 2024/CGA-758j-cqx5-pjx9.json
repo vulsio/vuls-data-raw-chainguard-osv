@@ -1,0 +1,35 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-758j-cqx5-pjx9",
+	"modified": "2024-10-22T05:29:14.002379Z",
+	"published": "2024-06-06T12:24:51.194527Z",
+	"aliases": [
+		"CVE-2016-2781",
+		"GHSA-vf3q-65gx-324p"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "coreutils",
+				"purl": "pkg:apk/chainguard/coreutils"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-758j-cqx5-pjx9.json"
+			}
+		}
+	]
+}

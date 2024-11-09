@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cjhp-29gh-4ww9",
+	"modified": "2024-06-03T18:24:06Z",
+	"published": "2024-06-06T12:25:50.971777Z",
+	"related": [
+		"CGA-cjhp-29gh-4ww9",
+		"CVE-2022-28923",
+		"GHSA-qpm3-vr34-h8w8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "caddy-fips",
+				"purl": "pkg:apk/chainguard/caddy-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cjhp-29gh-4ww9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "caddy-man",
+				"purl": "pkg:apk/chainguard/caddy-man"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cjhp-29gh-4ww9.json"
+			}
+		}
+	]
+}

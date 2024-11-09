@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hxmx-5wgr-hhf4",
+	"modified": "2024-02-15T07:04:09Z",
+	"published": "2024-06-06T12:27:57.889534Z",
+	"related": [
+		"CGA-hxmx-5wgr-hhf4",
+		"CVE-2023-48795",
+		"GHSA-45x7-px36-x8w8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-sql-proxy-fips",
+				"purl": "pkg:apk/chainguard/cloud-sql-proxy-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hxmx-5wgr-hhf4.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-sql-proxy-fips-compat",
+				"purl": "pkg:apk/chainguard/cloud-sql-proxy-fips-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.8.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hxmx-5wgr-hhf4.json"
+			}
+		}
+	]
+}

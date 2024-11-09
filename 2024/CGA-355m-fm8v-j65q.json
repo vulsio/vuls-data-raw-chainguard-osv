@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-355m-fm8v-j65q",
+	"modified": "2024-04-20T14:23:54Z",
+	"published": "2024-06-06T12:21:46.447292Z",
+	"related": [
+		"CGA-355m-fm8v-j65q",
+		"CVE-2023-45288",
+		"GHSA-4v7x-pqxf-cx7m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "grafana-operator-fips",
+				"purl": "pkg:apk/chainguard/grafana-operator-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.8.1-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-355m-fm8v-j65q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "grafana-operator-fips-bitnami-compat",
+				"purl": "pkg:apk/chainguard/grafana-operator-fips-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.8.1-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-355m-fm8v-j65q.json"
+			}
+		}
+	]
+}

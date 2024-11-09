@@ -1,0 +1,35 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hvjw-cqfw-cqf3",
+	"modified": "2024-10-22T05:29:04.341743Z",
+	"published": "2024-06-06T12:27:54.115322Z",
+	"aliases": [
+		"CVE-2023-52428",
+		"GHSA-gvpg-vgmx-xg6w"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "apache-nifi",
+				"purl": "pkg:apk/chainguard/apache-nifi"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.26.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvjw-cqfw-cqf3.json"
+			}
+		}
+	]
+}

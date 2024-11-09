@@ -1,0 +1,127 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qg5c-qvx6-2386",
+	"modified": "2024-07-25T18:10:52Z",
+	"published": "2024-09-25T05:32:10.386522Z",
+	"related": [
+		"CGA-qg5c-qvx6-2386",
+		"CVE-2024-21165"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mysql-8.0",
+				"purl": "pkg:apk/chainguard/mysql-8.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "8.0.38-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qg5c-qvx6-2386.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mysql-8.0-client",
+				"purl": "pkg:apk/chainguard/mysql-8.0-client"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "8.0.38-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qg5c-qvx6-2386.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mysql-8.0-dev",
+				"purl": "pkg:apk/chainguard/mysql-8.0-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "8.0.38-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qg5c-qvx6-2386.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mysql-8.0-oci-entrypoint",
+				"purl": "pkg:apk/chainguard/mysql-8.0-oci-entrypoint"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "8.0.38-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qg5c-qvx6-2386.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "mysql-8.0-oci-entrypoint-compat",
+				"purl": "pkg:apk/chainguard/mysql-8.0-oci-entrypoint-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "8.0.38-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qg5c-qvx6-2386.json"
+			}
+		}
+	]
+}

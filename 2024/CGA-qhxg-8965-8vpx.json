@@ -1,0 +1,82 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-qhxg-8965-8vpx",
+	"modified": "2024-03-14T18:51:18Z",
+	"published": "2024-06-06T12:29:05.558784Z",
+	"related": [
+		"CGA-qhxg-8965-8vpx",
+		"CVE-2024-24786",
+		"GHSA-8r3f-844c-mc37"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "terraform-fips-1.5",
+				"purl": "pkg:apk/chainguard/terraform-fips-1.5"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.5.7-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qhxg-8965-8vpx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "terraform-fips-1.5-compat",
+				"purl": "pkg:apk/chainguard/terraform-fips-1.5-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.5.7-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qhxg-8965-8vpx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "terraform-fips-1.5-local-provider-config",
+				"purl": "pkg:apk/chainguard/terraform-fips-1.5-local-provider-config"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.5.7-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-qhxg-8965-8vpx.json"
+			}
+		}
+	]
+}

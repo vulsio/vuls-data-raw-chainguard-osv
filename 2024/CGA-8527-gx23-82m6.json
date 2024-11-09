@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-8527-gx23-82m6",
+	"modified": "2024-09-19T05:35:44Z",
+	"published": "2024-09-19T06:06:43.938689Z",
+	"related": [
+		"CGA-8527-gx23-82m6",
+		"CVE-2024-34158",
+		"GHSA-j7vj-rw65-4v26"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-node-driver-registrar-2.11",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-node-driver-registrar-2.11"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.11.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8527-gx23-82m6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-node-driver-registrar-2.11-compat",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-node-driver-registrar-2.11-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.11.1-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-8527-gx23-82m6.json"
+			}
+		}
+	]
+}

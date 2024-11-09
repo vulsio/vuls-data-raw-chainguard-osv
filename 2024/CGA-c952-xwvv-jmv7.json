@@ -1,0 +1,128 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-c952-xwvv-jmv7",
+	"modified": "2024-09-10T12:10:17Z",
+	"published": "2024-09-25T05:20:33.076495Z",
+	"related": [
+		"CGA-c952-xwvv-jmv7",
+		"CVE-2024-8088",
+		"GHSA-q98g-hxg3-268c"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9",
+				"purl": "pkg:apk/chainguard/python-3.9"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-c952-xwvv-jmv7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-base",
+				"purl": "pkg:apk/chainguard/python-3.9-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-c952-xwvv-jmv7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-base-dev",
+				"purl": "pkg:apk/chainguard/python-3.9-base-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-c952-xwvv-jmv7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-dev",
+				"purl": "pkg:apk/chainguard/python-3.9-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-c952-xwvv-jmv7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-doc",
+				"purl": "pkg:apk/chainguard/python-3.9-doc"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-c952-xwvv-jmv7.json"
+			}
+		}
+	]
+}

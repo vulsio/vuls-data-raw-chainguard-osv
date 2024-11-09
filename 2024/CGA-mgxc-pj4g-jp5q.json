@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mgxc-pj4g-jp5q",
+	"modified": "2023-12-20T11:50:19Z",
+	"published": "2024-06-06T12:28:30.367334Z",
+	"related": [
+		"CGA-mgxc-pj4g-jp5q",
+		"CVE-2023-48795",
+		"GHSA-45x7-px36-x8w8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kiam",
+				"purl": "pkg:apk/chainguard/kiam"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.2-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mgxc-pj4g-jp5q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kiam-compat",
+				"purl": "pkg:apk/chainguard/kiam-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.2-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mgxc-pj4g-jp5q.json"
+			}
+		}
+	]
+}

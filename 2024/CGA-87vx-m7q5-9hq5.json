@@ -1,0 +1,82 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-87vx-m7q5-9hq5",
+	"modified": "2023-12-21T17:25:36Z",
+	"published": "2024-06-06T12:23:36.959188Z",
+	"related": [
+		"CGA-87vx-m7q5-9hq5",
+		"CVE-2023-48795",
+		"GHSA-45x7-px36-x8w8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "spire-server-fips",
+				"purl": "pkg:apk/chainguard/spire-server-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.6-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-87vx-m7q5-9hq5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "spire-agent-fips",
+				"purl": "pkg:apk/chainguard/spire-agent-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.6-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-87vx-m7q5-9hq5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "spire-oidc-discovery-provider-fips",
+				"purl": "pkg:apk/chainguard/spire-oidc-discovery-provider-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.6-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-87vx-m7q5-9hq5.json"
+			}
+		}
+	]
+}

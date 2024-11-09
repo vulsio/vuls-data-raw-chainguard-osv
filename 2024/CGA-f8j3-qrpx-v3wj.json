@@ -1,0 +1,128 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-f8j3-qrpx-v3wj",
+	"modified": "2024-09-10T12:10:17Z",
+	"published": "2024-09-25T05:21:59.782071Z",
+	"related": [
+		"CGA-f8j3-qrpx-v3wj",
+		"CVE-2024-6232",
+		"GHSA-mmm5-wgvp-wp8r"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9",
+				"purl": "pkg:apk/chainguard/python-3.9"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f8j3-qrpx-v3wj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-base",
+				"purl": "pkg:apk/chainguard/python-3.9-base"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f8j3-qrpx-v3wj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-base-dev",
+				"purl": "pkg:apk/chainguard/python-3.9-base-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f8j3-qrpx-v3wj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-dev",
+				"purl": "pkg:apk/chainguard/python-3.9-dev"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f8j3-qrpx-v3wj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "python-3.9-doc",
+				"purl": "pkg:apk/chainguard/python-3.9-doc"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.20-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f8j3-qrpx-v3wj.json"
+			}
+		}
+	]
+}

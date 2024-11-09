@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mwh4-pg89-2rxr",
+	"modified": "2024-03-15T09:38:02Z",
+	"published": "2024-06-06T12:28:35.927159Z",
+	"related": [
+		"CGA-mwh4-pg89-2rxr",
+		"CVE-2024-24786",
+		"GHSA-8r3f-844c-mc37"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "prometheus-pushgateway-1.4",
+				"purl": "pkg:apk/chainguard/prometheus-pushgateway-1.4"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.3-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mwh4-pg89-2rxr.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "prometheus-pushgateway-1.4-bitnami-compat",
+				"purl": "pkg:apk/chainguard/prometheus-pushgateway-1.4-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.4.3-r6"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mwh4-pg89-2rxr.json"
+			}
+		}
+	]
+}

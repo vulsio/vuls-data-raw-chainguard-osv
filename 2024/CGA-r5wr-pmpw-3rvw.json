@@ -1,0 +1,36 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-r5wr-pmpw-3rvw",
+	"modified": "2024-06-08T08:14:32Z",
+	"published": "2024-06-08T09:05:51.711645Z",
+	"related": [
+		"CGA-r5wr-pmpw-3rvw",
+		"CVE-2024-24789",
+		"GHSA-236w-p7wf-5ph8"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-livenessprobe-fips",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-livenessprobe-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.13.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-r5wr-pmpw-3rvw.json"
+			}
+		}
+	]
+}

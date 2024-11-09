@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-v28f-r39q-g35r",
+	"modified": "2024-06-07T08:30:20Z",
+	"published": "2024-06-07T09:07:05.677091Z",
+	"related": [
+		"CGA-v28f-r39q-g35r",
+		"CVE-2024-24790",
+		"GHSA-49gw-vxvf-fc2g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "prometheus-node-exporter-1.5",
+				"purl": "pkg:apk/chainguard/prometheus-node-exporter-1.5"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.5.0-r12"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v28f-r39q-g35r.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "prometheus-node-exporter-1.5-compat",
+				"purl": "pkg:apk/chainguard/prometheus-node-exporter-1.5-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.5.0-r12"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-v28f-r39q-g35r.json"
+			}
+		}
+	]
+}

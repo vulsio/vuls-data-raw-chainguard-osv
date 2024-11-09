@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-gxh9-cpc8-f427",
+	"modified": "2024-06-07T07:14:01Z",
+	"published": "2024-06-07T08:07:05.477590Z",
+	"related": [
+		"CGA-gxh9-cpc8-f427",
+		"CVE-2024-24790",
+		"GHSA-49gw-vxvf-fc2g"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cluster-autoscaler-fips-1.28",
+				"purl": "pkg:apk/chainguard/cluster-autoscaler-fips-1.28"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.5-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxh9-cpc8-f427.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cluster-autoscaler-fips-1.28-compat",
+				"purl": "pkg:apk/chainguard/cluster-autoscaler-fips-1.28-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.5-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-gxh9-cpc8-f427.json"
+			}
+		}
+	]
+}

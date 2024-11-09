@@ -1,0 +1,36 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-7hvw-h9c4-h6h5",
+	"modified": "2024-07-31T11:34:35Z",
+	"published": "2024-06-06T12:23:25.968175Z",
+	"related": [
+		"CGA-7hvw-h9c4-h6h5",
+		"CVE-2012-5783",
+		"GHSA-3832-9276-x7gf"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "zaproxy",
+				"purl": "pkg:apk/chainguard/zaproxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.15.0-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7hvw-h9c4-h6h5.json"
+			}
+		}
+	]
+}

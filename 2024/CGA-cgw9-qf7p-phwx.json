@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cgw9-qf7p-phwx",
+	"modified": "2024-09-19T05:34:08Z",
+	"published": "2024-09-19T06:07:05.760502Z",
+	"related": [
+		"CGA-cgw9-qf7p-phwx",
+		"CVE-2024-34156",
+		"GHSA-crqm-pwhx-j97f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-node-driver-registrar-2.7",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-node-driver-registrar-2.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgw9-qf7p-phwx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kubernetes-csi-node-driver-registrar-2.7-compat",
+				"purl": "pkg:apk/chainguard/kubernetes-csi-node-driver-registrar-2.7-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.0-r7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cgw9-qf7p-phwx.json"
+			}
+		}
+	]
+}

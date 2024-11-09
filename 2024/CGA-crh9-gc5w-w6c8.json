@@ -1,0 +1,36 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-crh9-gc5w-w6c8",
+	"modified": "2024-09-18T18:12:58Z",
+	"published": "2024-09-25T05:21:15.740568Z",
+	"related": [
+		"CGA-crh9-gc5w-w6c8",
+		"CVE-2024-34156",
+		"GHSA-crqm-pwhx-j97f"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "skopeo-fips",
+				"purl": "pkg:apk/chainguard/skopeo-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.1-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-crh9-gc5w-w6c8.json"
+			}
+		}
+	]
+}

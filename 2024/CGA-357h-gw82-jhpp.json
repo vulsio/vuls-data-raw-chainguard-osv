@@ -1,0 +1,43 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-357h-gw82-jhpp",
+	"modified": "2024-10-22T05:29:02.013800Z",
+	"published": "2024-06-06T12:21:24.901178Z",
+	"aliases": [
+		"BIT-cilium-2024-28249",
+		"BIT-cilium-operator-2024-28249",
+		"BIT-cilium-proxy-2024-28249",
+		"BIT-hubble-2024-28249",
+		"BIT-hubble-relay-2024-28249",
+		"BIT-hubble-ui-2024-28249",
+		"BIT-hubble-ui-backend-2024-28249",
+		"CVE-2024-28249",
+		"GHSA-j89h-qrvr-xc36",
+		"GO-2024-2656"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14",
+				"purl": "pkg:apk/chainguard/cilium-1.14"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.8-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-357h-gw82-jhpp.json"
+			}
+		}
+	]
+}

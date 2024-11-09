@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-wfj7-w5hc-wf47",
+	"modified": "2024-07-10T20:07:55Z",
+	"published": "2024-07-15T22:08:53.826897Z",
+	"related": [
+		"CGA-wfj7-w5hc-wf47",
+		"GHSA-xr7q-jx4m-x55m"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-fips-1.17",
+				"purl": "pkg:apk/chainguard/vault-fips-1.17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wfj7-w5hc-wf47.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-fips-1.17-compat",
+				"purl": "pkg:apk/chainguard/vault-fips-1.17-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wfj7-w5hc-wf47.json"
+			}
+		}
+	]
+}

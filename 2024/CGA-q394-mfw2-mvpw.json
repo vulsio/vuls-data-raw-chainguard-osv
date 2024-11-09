@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-q394-mfw2-mvpw",
+	"modified": "2024-09-18T23:25:43Z",
+	"published": "2024-09-19T00:07:14.888493Z",
+	"related": [
+		"CGA-q394-mfw2-mvpw",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kube-logging-logging-operator-4.1",
+				"purl": "pkg:apk/chainguard/kube-logging-logging-operator-4.1"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.0-r12"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q394-mfw2-mvpw.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kube-logging-logging-operator-4.1-compat",
+				"purl": "pkg:apk/chainguard/kube-logging-logging-operator-4.1-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.0-r12"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-q394-mfw2-mvpw.json"
+			}
+		}
+	]
+}

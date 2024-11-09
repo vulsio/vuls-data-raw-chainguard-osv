@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mc35-3jfv-r5p9",
+	"modified": "2024-09-14T01:01:58Z",
+	"published": "2024-09-14T01:20:30.058632Z",
+	"related": [
+		"CGA-mc35-3jfv-r5p9",
+		"CVE-2024-34155",
+		"GHSA-8xfx-rj4p-23jm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-pages-17.2",
+				"purl": "pkg:apk/chainguard/gitlab-pages-17.2"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.2.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mc35-3jfv-r5p9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-pages-compat-17.2",
+				"purl": "pkg:apk/chainguard/gitlab-pages-compat-17.2"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.2.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mc35-3jfv-r5p9.json"
+			}
+		}
+	]
+}
