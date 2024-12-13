@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-h5jr-8xcc-q6w2",
+	"modified": "2024-12-13T14:18:14Z",
+	"published": "2024-12-13T15:07:52.021267Z",
+	"related": [
+		"CGA-h5jr-8xcc-q6w2",
+		"CVE-2024-45337",
+		"GHSA-v778-237x-gjrc"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kiali-fips",
+				"purl": "pkg:apk/chainguard/kiali-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.2.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h5jr-8xcc-q6w2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "kiali-api-fips",
+				"purl": "pkg:apk/chainguard/kiali-api-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.2.0-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-h5jr-8xcc-q6w2.json"
+			}
+		}
+	]
+}
