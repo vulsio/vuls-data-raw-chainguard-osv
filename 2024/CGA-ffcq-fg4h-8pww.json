@@ -1,0 +1,174 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-ffcq-fg4h-8pww",
+	"modified": "2024-12-13T23:29:13Z",
+	"published": "2024-12-14T00:07:51.399814Z",
+	"related": [
+		"CGA-ffcq-fg4h-8pww",
+		"CVE-2024-45337",
+		"GHSA-v778-237x-gjrc"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14",
+				"purl": "pkg:apk/chainguard/cilium-1.14"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14-container-init",
+				"purl": "pkg:apk/chainguard/cilium-1.14-container-init"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14-container-init-compat",
+				"purl": "pkg:apk/chainguard/cilium-1.14-container-init-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14-hubble-relay",
+				"purl": "pkg:apk/chainguard/cilium-1.14-hubble-relay"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14-iptables",
+				"purl": "pkg:apk/chainguard/cilium-1.14-iptables"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14-operator-aws",
+				"purl": "pkg:apk/chainguard/cilium-1.14-operator-aws"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-1.14-operator-generic",
+				"purl": "pkg:apk/chainguard/cilium-1.14-operator-generic"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.14.17-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-ffcq-fg4h-8pww.json"
+			}
+		}
+	]
+}
