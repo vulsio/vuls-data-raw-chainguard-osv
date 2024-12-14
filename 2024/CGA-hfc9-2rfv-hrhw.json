@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hfc9-2rfv-hrhw",
+	"modified": "2024-12-13T18:25:29Z",
+	"published": "2024-12-13T19:08:13.123354Z",
+	"related": [
+		"CGA-hfc9-2rfv-hrhw",
+		"CVE-2024-11079",
+		"GHSA-99w6-3xph-cx78"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "ansible-operator",
+				"purl": "pkg:apk/chainguard/ansible-operator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.37.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hfc9-2rfv-hrhw.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "ansible-operator-compat",
+				"purl": "pkg:apk/chainguard/ansible-operator-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.37.0-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hfc9-2rfv-hrhw.json"
+			}
+		}
+	]
+}

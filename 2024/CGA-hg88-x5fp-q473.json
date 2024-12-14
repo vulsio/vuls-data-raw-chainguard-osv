@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hg88-x5fp-q473",
+	"modified": "2024-12-13T22:12:26Z",
+	"published": "2024-12-13T23:07:59.371981Z",
+	"related": [
+		"CGA-hg88-x5fp-q473",
+		"CVE-2024-45337",
+		"GHSA-v778-237x-gjrc"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gatekeeper-3.16",
+				"purl": "pkg:apk/chainguard/gatekeeper-3.16"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.16.3-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hg88-x5fp-q473.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gatekeeper-3.16-compat",
+				"purl": "pkg:apk/chainguard/gatekeeper-3.16-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.16.3-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hg88-x5fp-q473.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gatekeeper-3.16-crds",
+				"purl": "pkg:apk/chainguard/gatekeeper-3.16-crds"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.16.3-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hg88-x5fp-q473.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gatekeeper-3.16-gator",
+				"purl": "pkg:apk/chainguard/gatekeeper-3.16-gator"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.16.3-r9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hg88-x5fp-q473.json"
+			}
+		}
+	]
+}
