@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jgxw-2cwm-v5x8",
+	"modified": "2024-12-20T13:28:37Z",
+	"published": "2024-12-20T14:08:15.069582Z",
+	"related": [
+		"CGA-jgxw-2cwm-v5x8",
+		"CVE-2024-45338",
+		"GHSA-w32m-9786-jp63"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.17",
+				"purl": "pkg:apk/chainguard/vault-1.17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.6-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jgxw-2cwm-v5x8.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.17-compat",
+				"purl": "pkg:apk/chainguard/vault-1.17-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.6-r2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jgxw-2cwm-v5x8.json"
+			}
+		}
+	]
+}
