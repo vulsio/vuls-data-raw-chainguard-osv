@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-cvc2-5p6c-m73j",
+	"modified": "2024-12-20T18:21:53Z",
+	"published": "2024-12-20T19:08:26.421032Z",
+	"related": [
+		"CGA-cvc2-5p6c-m73j",
+		"CVE-2024-45338",
+		"GHSA-w32m-9786-jp63"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.16",
+				"purl": "pkg:apk/chainguard/vault-1.16"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.3-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cvc2-5p6c-m73j.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.16-compat",
+				"purl": "pkg:apk/chainguard/vault-1.16-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.3-r8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-cvc2-5p6c-m73j.json"
+			}
+		}
+	]
+}
