@@ -1,0 +1,150 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-p4j9-xccm-c4f3",
+	"modified": "2025-01-08T14:43:55Z",
+	"published": "2025-01-08T15:23:35.573611Z",
+	"related": [
+		"CGA-p4j9-xccm-c4f3",
+		"CVE-2024-51741"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "redis-7.4",
+				"purl": "pkg:apk/chainguard/redis-7.4"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.4.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4j9-xccm-c4f3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "redis-7.4-bitnami-compat",
+				"purl": "pkg:apk/chainguard/redis-7.4-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.4.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4j9-xccm-c4f3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "redis-benchmark-7.4",
+				"purl": "pkg:apk/chainguard/redis-benchmark-7.4"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.4.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4j9-xccm-c4f3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "redis-cli-7.4",
+				"purl": "pkg:apk/chainguard/redis-cli-7.4"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.4.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4j9-xccm-c4f3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "redis-cluster-7.4-bitnami-compat",
+				"purl": "pkg:apk/chainguard/redis-cluster-7.4-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.4.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4j9-xccm-c4f3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "redis-sentinel-7.4-bitnami-compat",
+				"purl": "pkg:apk/chainguard/redis-sentinel-7.4-bitnami-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.4.2-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-p4j9-xccm-c4f3.json"
+			}
+		}
+	]
+}
