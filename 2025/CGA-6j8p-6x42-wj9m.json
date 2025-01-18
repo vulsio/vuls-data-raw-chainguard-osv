@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-6j8p-6x42-wj9m",
+	"modified": "2025-01-18T00:29:49Z",
+	"published": "2025-01-18T01:22:44.081544Z",
+	"related": [
+		"CGA-6j8p-6x42-wj9m",
+		"CVE-2024-52798",
+		"GHSA-rhx6-c78j-4q9w"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "tileserver-gl-fips",
+				"purl": "pkg:apk/chainguard/tileserver-gl-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.1.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-6j8p-6x42-wj9m.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "tileserver-gl-fips-compat",
+				"purl": "pkg:apk/chainguard/tileserver-gl-fips-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.1.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-6j8p-6x42-wj9m.json"
+			}
+		}
+	]
+}
