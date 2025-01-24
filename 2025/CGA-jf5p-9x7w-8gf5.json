@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jf5p-9x7w-8gf5",
+	"modified": "2025-01-23T17:35:37Z",
+	"published": "2025-01-23T18:07:38.280557Z",
+	"related": [
+		"CGA-jf5p-9x7w-8gf5",
+		"CVE-2025-23047",
+		"GHSA-h78m-j95m-5356"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-fips-1.16",
+				"purl": "pkg:apk/chainguard/cilium-fips-1.16"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jf5p-9x7w-8gf5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-fips-1.16-host-utils",
+				"purl": "pkg:apk/chainguard/cilium-fips-1.16-host-utils"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jf5p-9x7w-8gf5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-fips-1.16-hubble-relay",
+				"purl": "pkg:apk/chainguard/cilium-fips-1.16-hubble-relay"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jf5p-9x7w-8gf5.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cilium-fips-1.16-operator-generic",
+				"purl": "pkg:apk/chainguard/cilium-fips-1.16-operator-generic"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.6-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jf5p-9x7w-8gf5.json"
+			}
+		}
+	]
+}
