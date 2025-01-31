@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-f885-hrvq-6fxj",
+	"modified": "2025-01-31T07:20:59Z",
+	"published": "2025-01-31T08:12:45.109513Z",
+	"related": [
+		"CGA-f885-hrvq-6fxj",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.17",
+				"purl": "pkg:apk/chainguard/vault-1.17"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.6-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f885-hrvq-6fxj.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "vault-1.17-compat",
+				"purl": "pkg:apk/chainguard/vault-1.17-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.17.6-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-f885-hrvq-6fxj.json"
+			}
+		}
+	]
+}
