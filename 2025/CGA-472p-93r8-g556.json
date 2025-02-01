@@ -1,0 +1,82 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-472p-93r8-g556",
+	"modified": "2025-02-01T08:31:20Z",
+	"published": "2025-02-01T09:08:23.537934Z",
+	"related": [
+		"CGA-472p-93r8-g556",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "terraform-1.9",
+				"purl": "pkg:apk/chainguard/terraform-1.9"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.8-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-472p-93r8-g556.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "terraform-1.9-compat",
+				"purl": "pkg:apk/chainguard/terraform-1.9-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.8-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-472p-93r8-g556.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "terraform-1.9-local-provider-config",
+				"purl": "pkg:apk/chainguard/terraform-1.9-local-provider-config"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.8-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-472p-93r8-g556.json"
+			}
+		}
+	]
+}

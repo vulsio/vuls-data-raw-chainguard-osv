@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-jj73-m82m-32mg",
+	"modified": "2025-02-01T07:34:52Z",
+	"published": "2025-02-01T08:08:35.640166Z",
+	"related": [
+		"CGA-jj73-m82m-32mg",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux-image-automation-controller-fips",
+				"purl": "pkg:apk/chainguard/flux-image-automation-controller-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.39.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jj73-m82m-32mg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "flux-image-automation-controller-fips-compat",
+				"purl": "pkg:apk/chainguard/flux-image-automation-controller-fips-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.39.0-r4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-jj73-m82m-32mg.json"
+			}
+		}
+	]
+}

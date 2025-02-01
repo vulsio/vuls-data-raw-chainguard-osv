@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-vjhw-cxqf-h845",
+	"modified": "2025-02-01T05:41:37Z",
+	"published": "2025-02-01T06:08:56.298963Z",
+	"related": [
+		"CGA-vjhw-cxqf-h845",
+		"CVE-2024-45336",
+		"GHSA-7wrw-r4p8-38rx"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "docker-fips",
+				"purl": "pkg:apk/chainguard/docker-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "27.5.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vjhw-cxqf-h845.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "dockerd-fips",
+				"purl": "pkg:apk/chainguard/dockerd-fips"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "27.5.1-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-vjhw-cxqf-h845.json"
+			}
+		}
+	]
+}
