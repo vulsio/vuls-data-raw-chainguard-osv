@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-mggp-wmgq-87m9",
+	"modified": "2025-01-31T22:35:03Z",
+	"published": "2025-01-31T23:08:37.305544Z",
+	"related": [
+		"CGA-mggp-wmgq-87m9",
+		"CVE-2024-45341",
+		"GHSA-3f6r-qh9c-x6mm"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-provider-aws-1.30",
+				"purl": "pkg:apk/chainguard/cloud-provider-aws-1.30"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.30.6-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mggp-wmgq-87m9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-provider-aws-1.30-cloud-controller-manager",
+				"purl": "pkg:apk/chainguard/cloud-provider-aws-1.30-cloud-controller-manager"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.30.6-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mggp-wmgq-87m9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-provider-aws-1.30-cloud-controller-manager-compat",
+				"purl": "pkg:apk/chainguard/cloud-provider-aws-1.30-cloud-controller-manager-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.30.6-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mggp-wmgq-87m9.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cloud-provider-aws-1.30-ecr-credential-provider",
+				"purl": "pkg:apk/chainguard/cloud-provider-aws-1.30-ecr-credential-provider"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.30.6-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-mggp-wmgq-87m9.json"
+			}
+		}
+	]
+}

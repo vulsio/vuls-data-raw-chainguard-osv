@@ -1,0 +1,105 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-rwvv-xc3c-5h62",
+	"modified": "2025-01-31T21:37:16Z",
+	"published": "2025-01-31T22:04:13.678920Z",
+	"related": [
+		"CGA-rwvv-xc3c-5h62",
+		"CVE-2024-45336",
+		"GHSA-7wrw-r4p8-38rx"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-cni-1.22",
+				"purl": "pkg:apk/chainguard/istio-cni-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.8-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rwvv-xc3c-5h62.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-cni-1.22-compat",
+				"purl": "pkg:apk/chainguard/istio-cni-1.22-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.8-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rwvv-xc3c-5h62.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-install-cni-1.22",
+				"purl": "pkg:apk/chainguard/istio-install-cni-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.8-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rwvv-xc3c-5h62.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-install-cni-1.22-compat",
+				"purl": "pkg:apk/chainguard/istio-install-cni-1.22-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.8-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-rwvv-xc3c-5h62.json"
+			}
+		}
+	]
+}
