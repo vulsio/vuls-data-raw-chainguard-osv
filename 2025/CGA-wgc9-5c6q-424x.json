@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "CGA-7h3f-5c2r-mrrj",
-	"modified": "2025-02-05T15:26:13Z",
-	"published": "2025-02-01T09:08:23.418063Z",
+	"id": "CGA-wgc9-5c6q-424x",
+	"modified": "2025-02-05T15:27:43Z",
+	"published": "2025-02-05T16:09:47.385490Z",
 	"related": [
-		"CGA-7h3f-5c2r-mrrj",
+		"CGA-wgc9-5c6q-424x",
 		"CVE-2024-11741",
 		"GHSA-wxcc-2f3q-4h58"
 	],
@@ -12,8 +12,8 @@
 		{
 			"package": {
 				"ecosystem": "Chainguard",
-				"name": "grafana-fips-11.0",
-				"purl": "pkg:apk/chainguard/grafana-fips-11.0"
+				"name": "grafana-11.3",
+				"purl": "pkg:apk/chainguard/grafana-11.3"
 			},
 			"ranges": [
 				{
@@ -29,14 +29,14 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7h3f-5c2r-mrrj.json"
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wgc9-5c6q-424x.json"
 			}
 		},
 		{
 			"package": {
 				"ecosystem": "Chainguard",
-				"name": "grafana-fips-11.0-oci-compat",
-				"purl": "pkg:apk/chainguard/grafana-fips-11.0-oci-compat"
+				"name": "grafana-11.3-oci-compat",
+				"purl": "pkg:apk/chainguard/grafana-11.3-oci-compat"
 			},
 			"ranges": [
 				{
@@ -52,7 +52,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://packages.cgr.dev/chainguard/osv/CGA-7h3f-5c2r-mrrj.json"
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-wgc9-5c6q-424x.json"
 			}
 		}
 	]
