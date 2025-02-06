@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "CGA-f4qg-9fw4-8247",
-	"modified": "2024-10-22T05:29:00.721756Z",
+	"modified": "2025-02-06T01:12:08.453349Z",
 	"published": "2024-06-06T12:27:02.609457Z",
 	"aliases": [
 		"CVE-2024-26130",
-		"GHSA-6vqw-3v5j-54x4"
+		"GHSA-6vqw-3v5j-54x4",
+		"PYSEC-2024-225"
 	],
 	"affected": [
 		{
