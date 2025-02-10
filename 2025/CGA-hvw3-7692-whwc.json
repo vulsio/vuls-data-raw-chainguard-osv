@@ -1,0 +1,36 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-hvw3-7692-whwc",
+	"modified": "2025-02-10T07:40:41Z",
+	"published": "2025-02-10T08:09:30.146297Z",
+	"related": [
+		"CGA-hvw3-7692-whwc",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "istio-operator-1.22",
+				"purl": "pkg:apk/chainguard/istio-operator-1.22"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.8-r1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-hvw3-7692-whwc.json"
+			}
+		}
+	]
+}
