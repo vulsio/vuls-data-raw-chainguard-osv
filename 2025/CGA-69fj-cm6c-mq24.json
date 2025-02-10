@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-69fj-cm6c-mq24",
+	"modified": "2025-02-10T15:34:51Z",
+	"published": "2025-02-10T16:12:27.218923Z",
+	"related": [
+		"CGA-69fj-cm6c-mq24",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cass-operator-fips-no-pvc-delete",
+				"purl": "pkg:apk/chainguard/cass-operator-fips-no-pvc-delete"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.23.0-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-69fj-cm6c-mq24.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cass-operator-fips-no-pvc-delete-compat",
+				"purl": "pkg:apk/chainguard/cass-operator-fips-no-pvc-delete-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.23.0-r3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-69fj-cm6c-mq24.json"
+			}
+		}
+	]
+}
