@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-6hrr-qh5q-vx3x",
+	"modified": "2025-02-12T01:45:00Z",
+	"published": "2025-02-12T02:27:34.827928Z",
+	"related": [
+		"CGA-6hrr-qh5q-vx3x",
+		"CVE-2025-22866",
+		"GHSA-3whm-j4xm-rv8x"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cluster-autoscaler-1.28",
+				"purl": "pkg:apk/chainguard/cluster-autoscaler-1.28"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.7-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-6hrr-qh5q-vx3x.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "cluster-autoscaler-1.28-compat",
+				"purl": "pkg:apk/chainguard/cluster-autoscaler-1.28-compat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28.7-r5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-6hrr-qh5q-vx3x.json"
+			}
+		}
+	]
+}
