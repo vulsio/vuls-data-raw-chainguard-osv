@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-w25m-rf58-x4f3",
+	"modified": "2025-02-14T15:20:48Z",
+	"published": "2025-02-14T16:00:06.027804Z",
+	"related": [
+		"CGA-w25m-rf58-x4f3",
+		"CVE-2025-0376",
+		"GHSA-8rmw-8cch-2w5c"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-pages-17.7",
+				"purl": "pkg:apk/chainguard/gitlab-pages-17.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.7.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-w25m-rf58-x4f3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-pages-compat-17.7",
+				"purl": "pkg:apk/chainguard/gitlab-pages-compat-17.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.7.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-w25m-rf58-x4f3.json"
+			}
+		}
+	]
+}
