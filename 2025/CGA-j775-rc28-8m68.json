@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "CGA-j775-rc28-8m68",
+	"modified": "2025-02-14T18:27:35Z",
+	"published": "2025-02-14T19:09:55.654946Z",
+	"related": [
+		"CGA-j775-rc28-8m68",
+		"CVE-2024-12379",
+		"GHSA-v488-9cvj-5mx7"
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-ee-17.7",
+				"purl": "pkg:apk/chainguard/gitlab-ee-17.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.7.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j775-rc28-8m68.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Chainguard",
+				"name": "gitlab-workhorse-ee-17.7",
+				"purl": "pkg:apk/chainguard/gitlab-workhorse-ee-17.7"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "17.7.4-r0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://packages.cgr.dev/chainguard/osv/CGA-j775-rc28-8m68.json"
+			}
+		}
+	]
+}
