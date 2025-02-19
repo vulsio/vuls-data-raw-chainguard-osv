@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "CGA-45fw-6h75-3fv5",
-	"modified": "2024-10-21T13:44:29Z",
+	"modified": "2025-02-18T18:22:59Z",
 	"published": "2024-10-21T14:21:51.948868Z",
 	"related": [
 		"CGA-45fw-6h75-3fv5",
@@ -23,7 +23,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.9.1-r2"
+							"fixed": "1.9.2-r4"
 						}
 					]
 				}
@@ -46,7 +46,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.9.1-r2"
+							"fixed": "1.9.2-r4"
 						}
 					]
 				}
