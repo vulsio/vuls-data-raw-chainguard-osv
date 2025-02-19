@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "CGA-7x36-fpv3-2vfj",
-	"modified": "2024-07-30T20:27:04Z",
+	"modified": "2025-02-19T09:17:40Z",
 	"published": "2024-09-25T05:16:25.419863Z",
 	"related": [
 		"CGA-7x36-fpv3-2vfj",
@@ -23,7 +23,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "20240701-r2"
+							"fixed": "20250102-r3"
 						}
 					]
 				}
@@ -46,7 +46,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "20240701-r2"
+							"fixed": "20250102-r3"
 						}
 					]
 				}
